@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+loans:
+  message: "Welcome to Vbank Loans related PROD APIs for Prod"
+  contactDetails:
+    name: "Vasil Doe - Prod"
+    email: "vasil@vasil.com"
+  onCallSupport:
+    - (359)
+    - (359)

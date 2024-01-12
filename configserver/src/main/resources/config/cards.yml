@@ -1,0 +1,11 @@
+build:
+  version: "3.0"
+
+cards:
+  message: "Welcome to Vbank Cards related production APIs for Dev"
+  contactDetails:
+    name: "Vasil Doe - Dev"
+    email: "vasil@vasil.com"
+  onCallSupport:
+    - (359)
+    - (359)

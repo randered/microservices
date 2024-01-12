@@ -1,0 +1,11 @@
+build:
+  version: "1.0"
+
+accounts:
+  message: "Welcome to Vbank accounts related PROD APIs for Production"
+  contactDetails:
+    name: "Vasil Doe - Production"
+    email: "vasil@vasil.com"
+  onCallSupport:
+    - (359)
+    - (359)

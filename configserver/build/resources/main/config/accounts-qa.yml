@@ -1,0 +1,11 @@
+build:
+  version: "2.0"
+
+accounts:
+  message: "Welcome to Vbank accounts related production APIs for QA"
+  contactDetails:
+    name: "Vasil Doe - QA"
+    email: "vasil@vasil.com"
+  onCallSupport:
+    - (359)
+    - (359)
