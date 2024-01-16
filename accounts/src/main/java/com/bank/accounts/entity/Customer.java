@@ -11,6 +11,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
+import org.hibernate.annotations.GenericGenerator;
 
 @Entity
 @Getter
@@ -21,7 +22,8 @@ import lombok.ToString;
 public class Customer extends BaseEntity {
 
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.AUTO, generator = "native")
+    @GenericGenerator(name = "native")
     @Column(name = "customer_id")
     private Long customerId;
 
@@ -29,6 +31,6 @@ public class Customer extends BaseEntity {
 
     private String email;
 
-    @Column(name="mobile_number")
+    @Column(name = "mobile_number")
     private String mobileNumber;
 }
