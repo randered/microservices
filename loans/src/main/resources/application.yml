@@ -51,3 +51,7 @@ management:
 endpoints:
   shutdown:
     enabled: true
+
+logging:
+  level:
+    org.randered.loans: DEBUG
