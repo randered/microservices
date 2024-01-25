@@ -51,3 +51,8 @@ management:
 endpoints:
   shutdown:
     enabled: true
+
+logging:
+  level:
+    root: DEBUG
+    org.randered.cards: DEBUG
